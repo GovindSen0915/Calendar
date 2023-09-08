@@ -1,0 +1,62 @@
+PODS:
+  - AnyErrorKit (0.1.4)
+  - FLLogs (0.1.2):
+    - XCGLogger (~> 7.0.0)
+  - FLUtilities (0.1.0)
+  - JTAppleCalendar (8.0.5)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ReactiveSwift (7.1.1)
+  - XCGLogger (7.0.1):
+    - XCGLogger/Core (= 7.0.1)
+  - XCGLogger/Core (7.0.1):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - AnyErrorKit (from `https://github.com/Nickelfox/AnyErrorKit.git`)
+  - FLLogs (from `https://github.com/Nickelfox/FLLogs.git`, branch `develop`)
+  - FLUtilities (from `https://github.com/Nickelfox/FLUtilities.git`, branch `develop`)
+  - JTAppleCalendar
+  - ReactiveSwift
+
+SPEC REPOS:
+  trunk:
+    - JTAppleCalendar
+    - ObjcExceptionBridging
+    - ReactiveSwift
+    - XCGLogger
+
+EXTERNAL SOURCES:
+  AnyErrorKit:
+    :git: https://github.com/Nickelfox/AnyErrorKit.git
+  FLLogs:
+    :branch: develop
+    :git: https://github.com/Nickelfox/FLLogs.git
+  FLUtilities:
+    :branch: develop
+    :git: https://github.com/Nickelfox/FLUtilities.git
+
+CHECKOUT OPTIONS:
+  AnyErrorKit:
+    :commit: 8651c99e640860cf09b724222ac7c62c4c102afb
+    :git: https://github.com/Nickelfox/AnyErrorKit.git
+  FLLogs:
+    :commit: b4ac361af1e50970f9ee88a5fba8ee8e8496a99e
+    :git: https://github.com/Nickelfox/FLLogs.git
+  FLUtilities:
+    :commit: b446e42ac0b1f72fb2c01b2e3dd3e9655d264566
+    :git: https://github.com/Nickelfox/FLUtilities.git
+
+SPEC CHECKSUMS:
+  AnyErrorKit: ea76a71ded6c544d4d2ddbfe1e8befc67d39a407
+  FLLogs: c9809fdf95d61fe45025202340b0c4a7c922f85d
+  FLUtilities: b61fc8f05e8b952f803b77b26ca11936502c923d
+  JTAppleCalendar: 16c6501b22cb27520372c28b0a2e0b12c8d0cd73
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ReactiveSwift: 477d3f5bc2eb3cbbba1c1636505752b83bef93b1
+  XCGLogger: 1943831ef907df55108b0b18657953f868de973b
+
+PODFILE CHECKSUM: 31832a75cc0ee8755ff414d7a3e88ed533308599
+
+COCOAPODS: 1.12.1

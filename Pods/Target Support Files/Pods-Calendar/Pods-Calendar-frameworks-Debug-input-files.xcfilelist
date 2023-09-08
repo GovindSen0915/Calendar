@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-Calendar/Pods-Calendar-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AnyErrorKit/AnyErrorKit.framework
+${BUILT_PRODUCTS_DIR}/FLLogs/FLLogs.framework
+${BUILT_PRODUCTS_DIR}/FLUtilities/FLUtilities.framework
+${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework
+${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework
+${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework
+${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework
