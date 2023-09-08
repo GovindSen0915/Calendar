@@ -15,10 +15,10 @@
 		E807FE502AAAF1C600E10F5C /* NewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E807FE4F2AAAF1C600E10F5C /* NewCellModel.swift */; };
 		E807FE522AAAF35200E10F5C /* NewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E807FE512AAAF35200E10F5C /* NewTableViewCell.swift */; };
 		E807FE542AAAF35800E10F5C /* NewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E807FE532AAAF35800E10F5C /* NewTableViewCell.xib */; };
+		E807FE562AAAF8F600E10F5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E807FE552AAAF8F600E10F5C /* Main.storyboard */; };
 		E87101782AAABDCA0034C8EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87101772AAABDCA0034C8EE /* AppDelegate.swift */; };
 		E871017A2AAABDCA0034C8EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87101792AAABDCA0034C8EE /* SceneDelegate.swift */; };
 		E871017C2AAABDCA0034C8EE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E871017B2AAABDCA0034C8EE /* CalendarViewController.swift */; };
-		E871017F2AAABDCA0034C8EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E871017D2AAABDCA0034C8EE /* Main.storyboard */; };
 		E87101812AAABDCB0034C8EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87101802AAABDCB0034C8EE /* Assets.xcassets */; };
 		E87101842AAABDCB0034C8EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87101822AAABDCB0034C8EE /* LaunchScreen.storyboard */; };
 		E87101932AAABEE20034C8EE /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87101922AAABEE20034C8EE /* CalendarViewModel.swift */; };
@@ -34,11 +34,11 @@
 		E807FE4F2AAAF1C600E10F5C /* NewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCellModel.swift; sourceTree = "<group>"; };
 		E807FE512AAAF35200E10F5C /* NewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTableViewCell.swift; sourceTree = "<group>"; };
 		E807FE532AAAF35800E10F5C /* NewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTableViewCell.xib; sourceTree = "<group>"; };
+		E807FE552AAAF8F600E10F5C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E87101742AAABDCA0034C8EE /* Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87101772AAABDCA0034C8EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E87101792AAABDCA0034C8EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E871017B2AAABDCA0034C8EE /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		E871017E2AAABDCA0034C8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E87101802AAABDCB0034C8EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E87101832AAABDCB0034C8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E87101852AAABDCB0034C8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		E807FE452AAAC78400E10F5C /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				E871017D2AAABDCA0034C8EE /* Main.storyboard */,
+				E807FE552AAAF8F600E10F5C /* Main.storyboard */,
 				E87101822AAABDCB0034C8EE /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
@@ -240,10 +240,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E87101842AAABDCB0034C8EE /* LaunchScreen.storyboard in Resources */,
+				E807FE562AAAF8F600E10F5C /* Main.storyboard in Resources */,
 				E807FE492AAAEB8300E10F5C /* CalendarDateCell.xib in Resources */,
 				E807FE542AAAF35800E10F5C /* NewTableViewCell.xib in Resources */,
 				E87101812AAABDCB0034C8EE /* Assets.xcassets in Resources */,
-				E871017F2AAABDCA0034C8EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +311,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E871017D2AAABDCA0034C8EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E871017E2AAABDCA0034C8EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E87101822AAABDCB0034C8EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
