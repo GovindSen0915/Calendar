@@ -61,6 +61,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E807FE442AAAC77D00E10F5C /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				E87101772AAABDCA0034C8EE /* AppDelegate.swift */,
+				E87101792AAABDCA0034C8EE /* SceneDelegate.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		E807FE452AAAC78400E10F5C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E871017D2AAABDCA0034C8EE /* Main.storyboard */,
+				E87101822AAABDCB0034C8EE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		E871016B2AAABDCA0034C8EE = {
 			isa = PBXGroup;
 			children = (
@@ -82,35 +100,17 @@
 		E87101762AAABDCA0034C8EE /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
+				E807FE452AAAC78400E10F5C /* Storyboard */,
+				E807FE442AAAC77D00E10F5C /* Applications */,
 				E87101912AAABED00034C8EE /* Controller */,
 				E87101902AAABEC80034C8EE /* ViewModel */,
 				E871018F2AAABEC20034C8EE /* Views */,
 				E871018E2AAABEA90034C8EE /* Helper */,
 				E871018D2AAABE9E0034C8EE /* Resources */,
-				E871018C2AAABE930034C8EE /* Storyboard */,
-				E871018B2AAABE8A0034C8EE /* Applications */,
-				E87101772AAABDCA0034C8EE /* AppDelegate.swift */,
-				E87101792AAABDCA0034C8EE /* SceneDelegate.swift */,
-				E871017D2AAABDCA0034C8EE /* Main.storyboard */,
 				E87101802AAABDCB0034C8EE /* Assets.xcassets */,
-				E87101822AAABDCB0034C8EE /* LaunchScreen.storyboard */,
 				E87101852AAABDCB0034C8EE /* Info.plist */,
 			);
 			path = Calendar;
-			sourceTree = "<group>";
-		};
-		E871018B2AAABE8A0034C8EE /* Applications */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Applications;
-			sourceTree = "<group>";
-		};
-		E871018C2AAABE930034C8EE /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		E871018D2AAABE9E0034C8EE /* Resources */ = {
