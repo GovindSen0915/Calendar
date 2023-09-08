@@ -25,7 +25,6 @@ class CalendarViewModel {
     var selectionType: CalendarSelectionType
     var sectionModels = MutableProperty<[SectionModel]>([])
     var cellModels = MutableProperty<[Any]>([])
-//    var currentDate: Date = Date()
     var selectedDate: Date = Date()
     var monthData: Date?
     
@@ -37,10 +36,6 @@ class CalendarViewModel {
         self.prepareCellModel()
     }
     
-//    func getmonthEndDate() -> Date {
-//        return Date().endOfMonth()
-//    }
-
     func prepareCellModel() {
         
         self.sectionModels.value = []
@@ -49,15 +44,10 @@ class CalendarViewModel {
         var dates = DateHelper.getDaysSimple(for: self.selectedDate)
         dates = dates.filter({ $0.day() >= selectedDate.day() })
         
-        let dateModels = dates.map({ NewCellModel(day: $0, leave: "No Leaves Applied") })
-//        for dateNum in 0..<31 {
-//
-//            let dateCellModel = NewCellModel(day: self.selectedDate!.addDay(dateNum), leave: "No leave applied")
-//            self.cellModels.value.append(dateCellModel)
-//        }
+        let dateModels = dates.map({ NewCellModel(day: $0, leave: "Hello there") })
         
         self.sectionModels.value = [SectionModel(headerModel: nil, cellModels: dateModels, footerModel: nil)]
-
+        
         self.view?.reload()
     }
 }
@@ -85,15 +75,15 @@ extension CalendarViewModel: CalendarViewControllerDelegate {
     }
     
     func setupData(selectedDate: Date) {
-//        self.prepareCellModel(date: selectedDate)
+        //        self.prepareCellModel(date: selectedDate)
         self.selectedDate = selectedDate
         self.prepareCellModel()
     }
     
-//    func goToTodaysDate(currentDate: Date) -> Date {
-//        return currentDate.addDay(0)
-//    }
-
+    //    func goToTodaysDate(currentDate: Date) -> Date {
+    //        return currentDate.addDay(0)
+    //    }
+    
     
 }
 

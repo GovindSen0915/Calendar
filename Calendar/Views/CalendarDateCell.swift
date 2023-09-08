@@ -27,7 +27,7 @@ protocol CalendarDateCellDelegate: AnyObject {
 class CalendarDateCell: JTACDayCell {
     
     @IBOutlet weak var dateLabel: UILabel!
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         dateLabel.layer.masksToBounds = true
@@ -42,7 +42,7 @@ class CalendarDateCell: JTACDayCell {
     func configureCell(_ cellState: CellState,
                        state: DayCellState) {
         self.dateLabel.text = cellState.text
-//        self.isHighlighted = cellState.dateBelongsTo != .thisMonth
+        //        self.isHighlighted = cellState.dateBelongsTo != .thisMonth
         
         var textColor: UIColor = .black
         var bgColor: UIColor = .white
@@ -57,11 +57,11 @@ class CalendarDateCell: JTACDayCell {
         case .unselected:
             textColor = .black
             bgColor = .white
-//        case .previ
+            //        case .previ
         }
         
         if cellState.dateBelongsTo != .thisMonth {
-//            textColor = .gray // need to disable previous month date ,
+            //            textColor = .gray // need to disable previous month date ,
             textColor = .white
         }
         

@@ -122,9 +122,9 @@
 		E87101762AAABDCA0034C8EE /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
-				E807FE4E2AAAF1AF00E10F5C /* CellModel */,
-				E807FE452AAAC78400E10F5C /* Storyboard */,
 				E807FE442AAAC77D00E10F5C /* Applications */,
+				E807FE452AAAC78400E10F5C /* Storyboard */,
+				E807FE4E2AAAF1AF00E10F5C /* CellModel */,
 				E87101912AAABED00034C8EE /* Controller */,
 				E87101902AAABEC80034C8EE /* ViewModel */,
 				E871018F2AAABEC20034C8EE /* Views */,
