@@ -237,7 +237,7 @@ extension CalendarViewController: JTACMonthViewDataSource,
                                            calendar: Calendar.current,
 //                                           generateInDates: .forFirstMonthOnly,
                                            generateOutDates: .off,
-                                           firstDayOfWeek: .monday,
+                                           firstDayOfWeek: .sunday,
                                            hasStrictBoundaries: true)
         } else {
             return ConfigurationParameters(startDate: startDate,
