@@ -181,6 +181,8 @@ class CalendarViewController: UIViewController {
     @IBAction func goToTodayButtonAction(_ sender: UIButton) {
         self.scrollToDate(date: Date(),animateScroll: false)
         self.selectedDate = Date()
+        self.viewModel.setupData(selectedDate: Date())
+        
     }
     
     
