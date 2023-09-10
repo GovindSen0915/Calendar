@@ -1,5 +1,9 @@
 # Calendar
 
+Simulator Demo
+:-------------------------:
+https://github.com/GovindSen0915/Calendar/assets/85836893/607a4c5e-e970-4bc4-ae99-fef6b5a4a87a
+
 Calendar Month View | Calendar Week View
 :-------------------------:|:-------------------------:
 <img alt="Products list" src="Screenshots/Month_View.png">|<img alt="Products list" src="Screenshots/Week_View.png">
