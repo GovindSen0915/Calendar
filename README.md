@@ -1,5 +1,9 @@
 # Calendar
 
+Calendar Month View | Calendar Week View
+:-------------------------:|:-------------------------:
+<img alt="Products list" src="Screenshots/Month_View.png">|<img alt="Products list" src="Screenshots/Week_View.png">
+
 - **Project Overview:**
   - This project demonstrates the implementation of a calendar view in iOS using the JTAppleCalendar library.
   - The calendar supports multi-selection and single-selection modes, controlled through the `CalendarSelectionType` enum.
